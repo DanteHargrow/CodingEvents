@@ -19,6 +19,7 @@ else
             <th>ID</th>
             <th>Name</th>
             <th>Description</th>
+            <th>Contact Email</th>
         </tr>
         @foreach (var evt in Model)
         {
@@ -26,6 +27,7 @@ else
                 <td>@evt.Id</td>
                 <td>@evt.Name</td>
                 <td>@evt.Description</td>
+                <td>@evt.ContactEmail</td>
             </tr>
         }
     </table>
