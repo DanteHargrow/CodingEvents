@@ -36,7 +36,8 @@ namespace CodingEvents.Controllers
                 {
                     Name = AddEventViewModel.Name,
                     Description = AddEventViewModel.Description,
-                    ContactEmail = AddEventViewModel.ContactEmail
+                    ContactEmail = AddEventViewModel.ContactEmail,
+                    Type = AddEventViewModel.Type
                 };
                 EventData.Add(newEvent);
                 return Redirect("/Events");

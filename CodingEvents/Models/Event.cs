@@ -11,6 +11,8 @@ namespace CodingEvents.Models
         public string Description { get; set; }
         public string ContactEmail { get; set; }
         public int Id { get;}
+        public EventType Type { get; set; }
+
         private static int nextId = 1;
 
         public Event()
